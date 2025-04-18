@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Biotrust Product Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    .body{
+        background-color: #0d4f9a;
+    }
+    .navbar {
+      background-color: #0d4f9a ; /* Light blue */
+      font-size: 0.875rem;
+    }
+    .top-bar a {
+      font-weight: 500;
+      color: white;
+
+    }
+
+    .top-bar .dropdown-item{
+        color: black;
+    }
+    
+    .main-bar {
+      background-color: #ffffff;
+      color:black;
+    }
+
+    .main-bar a{
+        color:#0d4f9a;
+    }
+
+    .nav-link {
+      font-weight: bold;
+    }
+
+    .navbar-brand {
+      color: #0d4f9a!important; /* BioTrust blue */
+    }
+    .dropdown-menu {
+      font-size: 0.9rem;
+    }
+
+    .main-bar  .shop-btn{
+        background-color: #0d4f9a;
+        color:white;
+    }
+
+    .blue-btn{
+        background-color:#0d4f9a;
+        color:white;
+    }
+
+    .sub-btn{
+        background-color: white;
+        border-color: #0d4f9a;
+        color:#0d4f9a;
+    }
+
+    .sub-btn:hover{
+        background-color: #0d4f9a;
+        
+    }
+
+    .cardss{
+        border-color: #0d4f9a!important;
+    }
+
+    .amount{
+        color: #0d4f9a;
+    }
+    .popular{
+        background-color: #0d4f9a;
+        color:white;
+   
+    }
+
+    .photo-tag{
+        color: #0d4f9a;
+    }
+
+    .chat-btn{
+        background-color: #0d4f9a;
+    }
+
+    .line{
+        background-color: #0d4f9a;
+    }
+
+    .footer-component{
+        background-color: #0d4f9a;
+        color:white;
+    }
+
+    .product-featured-review{
+        background-color: #0d4f9a;
+    }
+    
+  </style>
+</head>
+<body>
+
+<!-- Navbar Container -->
+<nav class="navbar navbar-expand-lg top-bar navbar-light flex-column py-1 shadow-sm">
+
+  <!-- Top Bar -->
+  <div class="container-fluid top-bar py-0 px-4 d-flex justify-content-end ">
+    <ul class="navbar-nav flex-row gap-3 align-items-center mb-0">
+      
+      <!-- Customer Support -->
+        
+      <li class="nav-item dropdown ">
+
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+            <img fetchpriority="low" src="//www.biotrust.com/cdn/shop/t/41/assets/chat-bubbles.png?v=95742358852790106191726098757" class="icon icon-chat" alt="Customer Support">
+
+          CUSTOMER SUPPORT
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="#">Contact Us</a></li>
+          <li><a class="dropdown-item" href="#">FAQs</a></li>
+          <li><a class="dropdown-item" href="#">Shipping Info</a></li>
+        </ul>
+      </li>
+
+      <!-- My Account -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+            <img fetchpriority="low" src="//www.biotrust.com/cdn/shop/t/41/assets/chat-bubbles.png?v=95742358852790106191726098757" class="icon icon-chat" alt="Customer Support">
+            MY ACCOUNT
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="#">Login</a></li>
+          <li><a class="dropdown-item" href="#">Register</a></li>
+          <li><a class="dropdown-item" href="#">Orders</a></li>
+        </ul>
+      </li>
+
+      <!-- My Cart -->
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+            <img fetchpriority="low" src="//www.biotrust.com/cdn/shop/t/41/assets/cart_30x30.png?v=66477680444600225761726098759" class="icon icon-cart" alt="Cart Icon">
+            MY CART (0)
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="container-fluid main-bar py-1 px-4 d-flex align-items-center justify-content-between flex-wrap">
+    <!-- Logo -->
+    <a class="navbar-brand fs-4 fw-bold" href="#">BioTRUST</a>
+
+    <!-- Navigation -->
+    <ul class="navbar-nav flex-row gap-4 align-items-center mb-0">
+
+      <!-- SHOP Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle shop-btn rounded-2" href="#" role="button" data-bs-toggle="dropdown">
+          SHOP
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Collagen</a></li>
+          <li><a class="dropdown-item" href="#">Protein</a></li>
+          <li><a class="dropdown-item" href="#">Supplements</a></li>
+        </ul>
+      </li>
+
+      <!-- Static Links -->
+      <li class="nav-item">
+        <a class="nav-link" href="#">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">BENEFITS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">HEALTHY AGING</a>
+      </li>
+    </ul>
+
+    <!-- Search -->
+    <form class="d-flex mt-2 mt-lg-0">
+      <input class="form-control form-control-sm" type="search" placeholder="Search all products...">
+      <image data-name="15028-200" width="46" height="51" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAzCAQAAABC+PL5AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfiBREJNxuirv30AAAD5UlEQVRYw62Yb2hVZRzHP+duc9v1T+Xm30Ap/Je0yHUzV0OXRpPBeCjQXAzflDEKgrLNNyFYQn+cb5IkK3qxQFQMdliSLiY6WkzBMi3UZYuh0WaKzI1td/9uL+7ufH7Pee6558D9vjq/7/Ocz/md333O73m4TjO+ilJEL+vZyABRxrnJVf6g//4E5XNzrs/YIj6hkgkWGX4PLoc5R0Y51sxz2EADy3k07X2DtHCITuJ+mUdsD+RT2qj0QcMsajjJD1SEy7yOWp7L/MpTGuIl1Ro08485GAINUU66rwWD72YXjmVWn74+PEX82j3i2sor4NXs8oyPcoIoz/AUD1HAMmppoodxY9YrlFif25y6epgW1oixfzjAd1z3pLOQcj5gpXDjLFG30sGjdPCk5ifoZS030xajmFOUCud3ypVRvFRZagQamijzQcNtyjgqnMf5yqx88gvNo164HexgDH+Nso271GnOBnMxJJ+1nhXC3ZIRnVS9WEXz+cgLz6FOPHMT/wZCwyCvinidW6CHTjOUcJriaedP4y0yaVJLbFhFzcyf1dDwWSg0bGZy+rrQjZnwKjH5p3Bs1cqAFr6jr5gIUKYN9vguQLvatetNJCR8njZ4XeQRQG6Ee1q4wCxLXItvMBqyLJM8oIWj+u8XoZAr2qCjv1ZA3dWu+8jX4eOiEPNDo6UGGNLhY9pSggXWfu4j1xHfxT39PSIg1sdj4ucNoiLRy7uUsVp+0wYLWR0SXo3+VV7WhyLAj2LyzlCFyaNGxJ0m/CItmvMitSHgMbFlxLlgwmEPE9PODL5hWWB4PUVadEoNe+GXxA25lo3appkcpVqLEzTICUn4mIF7nW95MCO8ia3irLmbLjkhtUFH6GapGLnEC/yXFjyPbmYJ52flOUylGuQkW5BHgyf4lTdZbDkHl7KH8wYatnsz0M+Kay3H4ttc5Hvaucw4iylmiLfZLlpVUh2q3B8Ojez0rXI/c9J8BSOsVn+bZs42PWplkDK9rxkqSPuB5bLymrvKaNfmAXI/FXpfC6HNHDct7+n0F2K0MhwIKFXpvpsJDleoYg2HMuxJbaJVJ7XPFW1P1jylBHc4wTFgDjPJE2O93KCbUr5gIU8b9zmUXHNXjUyHzX7ZOcylhBgryKePWwzyJYXMmNoQZvOXpfufVRXB4JmUz4jFfV6dSV/z4Ipz0OKedpdmAw7v8bnHczju5mcDPkyD5YwW40A24KghlljsHW5VFuCgEjRa7MPu3CzAgffZ6/G6GMsKXMVp5I6BblAD2ckc1c/LWjjBG+pMVmo+hW/nQyABvMVydRb8/8wJq7108ght6mrK+B9DTfCu7dxWAwAAAABJRU5ErkJggg=="></image>
+    </form>
+  </div>
+  
+
+</nav>
+<!-- Main Body -->
+<div class="container-fluid p-0 mb-0">
+  <p class="p-0 mb-0">Hone > Protien</p>
+</div>
+<!-- Images Column -->
+<div class="container-fluid my-5">
+  <div class="row">
+    <div class="col-md-1 d-flex flex-column ps-5 align-items-center">
+        <p>a</p>
+        <p>b</p>
+        <a href="#">
+        <img src="//www.biotrust.com/cdn/shop/files/DTC_Large_Unflavored_180x.png?v=1726670176 180w" class="mb-3 w-10 h-auto" alt="AGELESS MULTI-COLLAGEN® PROTEIN POWDER">
+    </a>
+    <a href="#">
+        <img src="//www.biotrust.com/cdn/shop/files/DTC_Large_Unflavored_180x.png?v=1726670176 180w" class="mb-3 w-20 h-auto" alt="AGELESS MULTI-COLLAGEN® PROTEIN POWDER">
+    </a>
+
+    </div>
+
+
+    <!-- Image Section -->
+    <div class="col-md-5 d-flex flex-column align-items-center">
+      <h3 class="text-center"><strong>AGELESS MULTI-COLLAGEN® PROTEIN POWDER</strong></h3>
+      <p>⭐⭐⭐⭐⭐ 3521 Reviews</p>
+      <img id="FeaturedImage-product-template-136-SNS-FLAVOR-V3-31218721914976-mobile" class="feature-row__image lazypreload lazyautosizes ls-is-cached lazyloaded" data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-sizes="auto" alt="AGELESS MULTI-COLLAGEN® PROTEIN POWDER" data-srcset="//www.biotrust.com/cdn/shop/files/DTC_Large_Unflavored_180x.png?v=1726670176 180w, //www.biotrust.com/cdn/shop/files/DTC_Large_Unflavored_360x.png?v=1726670176 360w, //www.biotrust.com/cdn/shop/files/DTC_Large_Unflavored_540x.png?v=1726670176 540w, //www.biotrust.com/cdn/shop/files/DTC_Large_Unflavored_720x.png?v=1726670176 720w, //www.biotrust.com/cdn/shop/files/DTC_Large_Unflavored_900x.png?v=1726670176 900w, //www.biotrust.com/cdn/shop/files/DTC_Large_Unflavored_1080x.png?v=1726670176 1080w, //www.biotrust.com/cdn/shop/files/DTC_Large_Unflavored_1296x.png?v=1726670176 1296w, //www.biotrust.com/cdn/shop/files/DTC_Large_Unflavored_1512x.png?v=1726670176 1512w, //www.biotrust.com/cdn/shop/files/DTC_Large_Unflavored_1728x.png?v=1726670176 1728w, //www.biotrust.com/cdn/shop/files/DTC_Large_Unflavored_2048x.png?v=1726670176 2048w" sizes="432px" srcset="//www.biotrust.com/cdn/shop/files/DTC_Large_Unflavored_180x.png?v=1726670176 180w, //www.biotrust.com/cdn/shop/files/DTC_Large_Unflavored_360x.png?v=1726670176 360w, //www.biotrust.com/cdn/shop/files/DTC_Large_Unflavored_540x.png?v=1726670176 540w, //www.biotrust.com/cdn/shop/files/DTC_Large_Unflavored_720x.png?v=1726670176 720w, //www.biotrust.com/cdn/shop/files/DTC_Large_Unflavored_900x.png?v=1726670176 900w, //www.biotrust.com/cdn/shop/files/DTC_Large_Unflavored_1080x.png?v=1726670176 1080w, //www.biotrust.com/cdn/shop/files/DTC_Large_Unflavored_1296x.png?v=1726670176 1296w, //www.biotrust.com/cdn/shop/files/DTC_Large_Unflavored_1512x.png?v=1726670176 1512w, //www.biotrust.com/cdn/shop/files/DTC_Large_Unflavored_1728x.png?v=1726670176 1728w, //www.biotrust.com/cdn/shop/files/DTC_Large_Unflavored_2048x.png?v=1726670176 2048w">
+    <!--  <img src="https://via.placeholder.com/300x400.png?text=Product+Image" class="img-fluid" alt="Product">
+       You can add thumbnail images here in a vertical layout
+    -->
+    </div>
+
+    <!-- Product Info and Pricing -->
+    <div class="col-md-6">
+        <h3 class="bold text-center"> Choose your package</h3>
+        <p class="text-center">Select your money saving options below </p>
+
+      
+
+      <!-- Purchase Buttons -->
+      <div class="d-flex justify-content-around gap-2 ">
+        <button type="button" class="btn btn-primary blue-btn flex-fill pt-3 pb-3 px-2"><strong>One-Time Purchase</strong></button>
+        <div class="position-relative flex-fill d-flex">
+        <button type="button" class="btn btn-outline-primary sub-btn flex-fill pt-3 pb-3 px-2">Subscribe & Save Up To 50%</button>
+        <a href="#"
+      class="position-absolute top-0 end-0 translate-middle p-1 bg-success border border-light rounded-circle"
+      data-bs-toggle="popover"
+      data-bs-placement="top"
+      data-bs-boundary="viewport"
+      data-bs-fallbackPlacements="none"
+      data-bs-html="true"
+      data-bs-content="<div class='text-center'><strong>Subscribe & Save!</strong><br><small>When you subscribe to this BioTRUST product, you will receive up to 50% OFF plus FREE Shipping on every recurring order and the price is guaranteed to NEVER go up!</small><br>
+      <small>You are never under any obligation. You can easily pause or cancel Subscribe & Save at any time by phone or email, and never be billed again. Plus, you’re backed by our 60-Day Money-Back-Guarantee!</small></div>"
+      style="font-size: 0.7rem; cursor: pointer; z-index: 999;">
+      <span class="text-white">?</span>
+        </a>
+        <script>
+            const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+            const popoverList = [...popoverTriggerList].map(el => new bootstrap.Popover(el));
+          </script>
+    </div>
+    </div>
+      
+
+      <!-- Price Cards -->
+      <div class="container  pt-4 mt-4">
+        <div class="row justify-content-center g-0 ">
+          
+          <!-- 1 Pack Card -->
+          <div class="col-md-4 d-flex flex-column">
+            <div class="border border-primary cardss border-2 text-center p-4 w-100  justify-content-between">
+              <div>
+                <h4 class="fw-bold amount ">1 Pack</h4>
+                <p class="fs-2 fw-bold text-success">$49</p>
+              </div>
+              <button class="btn btn-success fw-bold text-uppercase mt-3 px-3">Choose Flavor</button>
+            </div>
+          </div>
+      
+          <!-- 3 Packs Card (Most Popular) -->
+          <div class="col-md-4 d-flex flex-column position-relative">
+            <div class="border border-4 text-center p-4 w-100 cardss  justify-content-between bg-white">
+              <!-- Most Popular Badge -->
+              <div class="position-absolute top-0 start-50 popular translate-middle white-space-nowrap  text-white px-3 py-1 w-100 fw-bold">
+                Most Popular
+              </div>
+              <div class="p-3">
+                <h4 class="fw-bold amount ">3 Packs</h4>
+                <p class="text-success mb-0 py-0 fw-bold fs-2">$35</p>
+                <p class="text-success fs-4 py-0 mb-0">Per Pack</p>
+                <p class="text-danger py-0 mb-0 fw-bold">(Save 29%)</p>
+              </div>
+              <button class="btn btn-success fw-bold text-uppercase mt-3 px-3">Choose Flavor</button>
+            </div>
+          </div>
+      
+          <!-- 6 Packs Card -->
+          <div class="col-md-4 d-flex flex-column">
+            <div class="border border-primary border-2 cardss h-auto text-center p-4 w-100 justify-content-between">
+              <div>
+                <h4 class="fw-bold amount ">6 Packs</h4>
+                <p class="text-success mb-0 py-0 fw-bold fs-2">$31</p>
+                <p class="text-success fs-4 mb-0 px-0 py-0 mt-0">Per Pack</p>
+                <p class="text-danger fw-bold py-0 mb-0">(Save 36%)</p>
+              </div>
+              <button class="btn btn-success fw-bold text-uppercase mt-3 px-3">Choose Flavor</button>
+            </div>
+          </div>
+       <!-- Photo Row -->
+        </div>
+        <p class="text-center pt-3 mt-4 photo-tag"><strong>PHOTOS FROM THE #biotrust COMMUNITY</strong></p>
+      </div>
+      <div class="container d-flex flex-row align-items-center px-0 py-0 mt-0">
+        <a href="#">
+            <img src="//www.biotrust.com/cdn/shop/files/DTC_Large_Unflavored_180x.png?v=1726670176 180w" class="mb-3 w-10 h-auto" alt="AGELESS MULTI-COLLAGEN® PROTEIN POWDER">
+        </a>
+        <a href="#">
+            <img src="//www.biotrust.com/cdn/shop/files/DTC_Large_Unflavored_180x.png?v=1726670176 180w" class="mb-3 w-20 h-auto" alt="AGELESS MULTI-COLLAGEN® PROTEIN POWDER">
+        </a>
+        <a href="#">
+            <img src="//www.biotrust.com/cdn/shop/files/DTC_Large_Unflavored_180x.png?v=1726670176 180w" class="mb-3 w-10 h-auto" alt="AGELESS MULTI-COLLAGEN® PROTEIN POWDER">
+        </a>
+        <a href="#">
+            <img src="//www.biotrust.com/cdn/shop/files/DTC_Large_Unflavored_180x.png?v=1726670176 180w" class="mb-3 w-20 h-auto" alt="AGELESS MULTI-COLLAGEN® PROTEIN POWDER">
+        </a>
+      </div>
+
+      
+       <!--
+      <div class="row">
+        <div class="col-md-4">
+          <div class="price-card">
+            <h4>1 Pack</h4>
+            <p class="fw-bold">$49</p>
+            <button class="btn btn-success">Choose Flavor</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="price-card most-popular">
+            <h5 class="text-primary">Most Popular</h5>
+            <h4>3 Packs</h4>
+            <p class="green-text">$35 <small>Per Pack</small></p>
+            <p class="red-text">(Save 29%)</p>
+            <button class="btn btn-success">Choose Flavors</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="price-card">
+            <h4>6 Packs</h4>
+            <p class="green-text">$31 <small>Per Pack</small></p>
+            <p class="red-text">(Save 36%)</p>
+            <button class="btn btn-success">Choose Flavors</button>
+          </div>
+        </div>
+      </div>
+     -->
+      <!-- Bottom Info -->
+      <div class="mt-3">
+        <button class="btn btn-primary position-fixed bottom-0 end-0 m-3 rounded-5 chat-btn ">
+            <i class="bi bi-chat-dots-fill me-1"></i>
+            Let's Chat!</button>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<div class="line pt-1 pb-0 mt-0 mb-3 ">
+</div>
+
+<!--Product Description -->
+<div class="container product-desc">
+<h2>The No-Clump Multi-Collagen Protein Powder</h2>
+<strong>Ageless Multi-Collagen Provides You 5 Types of Collagen to Support:</strong>
+<ul>
+    <li>
+        "Healthy Skin, Hair, and Nails"
+    </li>
+    <li>
+        Gut, Joint, and Bone Health
+    </li>
+    <li>
+        Athletic Performance, Recovery, and an Active Lifestyle
+    </li>
+</ul>
+<strong>Plus, Every Serving of Ageless Multi-Collagen is:</strong>
+<ul>
+    <li>
+        Loaded with 10 Grams of Collagen Protein (per serving) including BioActive Collagen Peptides
+    </li>
+    <li>A Complete Protein Source Featuring 140mg of Tryptophan</li>
+    <li>Tasteless and Odorless or Available in Delicious Flavors</li>
+    <li>Mixes Instantly WITHOUT Clumps (in hot or cool liquids)</li>
+</ul>
+</div>
+
+<!--Product Description Ends-->
+
+<!--Footer Starts Here-->
+
+<div class="d-flex w-100 text-uppercase">
+    <div class="footer-component text-center flex-fill border-top border-bottom border-end border-2">
+        <img src="https://cdn.shopify.com/s/files/1/0009/2900/5634/files/60-day-money-back-guarantee.png?33286" alt="60-Day Money Back Guarantee" width="90" height="89">
+        <p>60-Day Money Back Guarantee</p>
+    </div>
+    <div class="footer-component text-center flex-fill border-top border-bottom border-end border-2">
+        <img src="https://cdn.shopify.com/s/files/1/0009/2900/5634/files/Complete_-5-Collagen-Protein.png?33316" alt="Complete, 5-Collagen Protein" width="90" height="89">
+        <p>Complete, 5-Collagen Protein</p>
+    </div>
+    <div class="footer-component text-center flex-fill border-top border-bottom border-end border-2">
+        <img src="https://cdn.shopify.com/s/files/1/0009/2900/5634/files/Hormone_-Glutena-and-Soy-Free_0cfd5c3d-c8a2-4659-ba48-bd631a05e7e5.png?347326" alt="No Hormones, Gluten or Soy" width="90" height="89">
+        <p>Hormone &amp; Gluten-Free &amp; non-GMO</p>
+    </div>
+    <div class="footer-component text-center flex-fill border-top border-bottom border-end border-2">
+        <img src="https://cdn.shopify.com/s/files/1/0009/2900/5634/files/never-clumps_609b1d6f-1c62-4cb9-8fe5-725c0dc114bb.png?34732" alt="No Clumping" width="90" height="89">
+        <p>Never Clumps</p>
+    </div>
+</div>
+<div class="row product-featured-review">
+	<div  class="col ">
+      <h3>FEATURED CUSTOMER REVIEW</h3>
+      <a  href="#reviews">Read more reviews</a>
+    </div>
+	<div class=" col">
+        <img src="//www.biotrust.com/cdn/shop/t/41/assets/featured_review_stars_small.png?v=115086123786708348821631221618" alt="" class="product-featured-review-stars">
+        <p>"I love it! No taste or smell. I put it in my coffee first thing. Cuts my hunger and gives me energy."<br><em>Jacqueline T.&nbsp;<br></em><strong class="verified">VERIFIED BUYER</strong><em><br></em></p><div class="content-review">&nbsp;</div>
+	</div>
+</div>
+
+</body>
+</html>
